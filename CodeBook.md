@@ -11,7 +11,7 @@
 ###### bar
 
 ##### tBodyAcc-mean()-Z
-####### foobar
+###### foobar
 	
 tBodyAcc-std()-X	
 tBodyAcc-std()-Y	
