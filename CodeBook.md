@@ -1,11 +1,11 @@
 ## Code Book
 * item 1
 * item 2
-### Activity	
-### Subject	
-### tBodyAcc-mean()-X	
-### tBodyAcc-mean()-Y	
-### tBodyAcc-mean()-Z	
+## Activity	
+## Subject	
+## tBodyAcc-mean()-X	
+## tBodyAcc-mean()-Y	
+## tBodyAcc-mean()-Z	
 tBodyAcc-std()-X	
 tBodyAcc-std()-Y	
 tBodyAcc-std()-Z	
