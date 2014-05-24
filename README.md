@@ -9,9 +9,9 @@ Running the Script
 
 Cleaning the Raw Data
 
-| features.txt |
-| X_train.txt  | subject_train.txt | y_train.txt |
-| X+test.txt   | subject_test.txt  | y_test.txt  |
+- ------------
+|features.txt|
+--------------
 
 
 1.
