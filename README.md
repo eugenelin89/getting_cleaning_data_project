@@ -45,7 +45,8 @@ A R script, with the name run_analysis.R, was created to perform the following t
 * Renaming the grouping columns._
 
 
-
+##### Criteria for Choosing Columns
+* Measurement names that includes the string **mean** or **std**
 
 ##### Discussion of the result 
 Two data sets were generated as a result of the script, one from step 1 to 4 and the other from step 5 of **Cleaning Raw Data** section.
