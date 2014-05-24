@@ -1,5 +1,5 @@
-Course Project for Johns Hopkins Data Science - Getting and Cleaning Data
-=========================================================================
+Course Project, Johns Hopkins Data Science, Getting and Cleaning Data
+=====================================================================
 ##### Objective of the project
 * To demonstrate the ability to collect, work with, and clean a data set.
 * To prepare tidy data that can be used for later analysis.
