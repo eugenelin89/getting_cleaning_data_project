@@ -42,13 +42,14 @@ A R script, with the name run_analysis.R, was created to perform the following t
 ###### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 * Using aggregate to group the data.
 * Clean the result by dropping unwanted columns.
-* Renaming the grouping columns.
+* Renaming the grouping columns._
 
 
 
 
-##### Discussion of the result
-Two data sets were generated as a result of the script.
+##### Discussion of the result 
+Two data sets were generated as a result of the script, one from step 1 to 4 and the other from step 5 of **Cleaning Raw Data** section.
+The first script, generated from step 1 to 4, has 10299 rows and 81 columns.  The first column gives the acitivity name, and the second column states the ID of participating subjects.  The remaining column are values of mean and standard deviation of each measurement.
 
-
+The second data set is the result of step 5.  The data set is first grouped by Activity, then by Subject. There are 180 rows and 81 columns.  The first two colums are the activity name and subject ID.  The remaining columns gives the average of each variable for each activity, and for each subject.   
 
