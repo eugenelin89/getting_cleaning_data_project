@@ -12,6 +12,10 @@ Cleaning the Raw Data
 - ------------
 |features.txt|
 --------------
+|X_train.txt |
+--------------
+|X_test.txt  |
+--------------
 
 
 1.
