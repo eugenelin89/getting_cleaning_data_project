@@ -1,8 +1,18 @@
-#### Activity	
-#### Subject	
-#### tBodyAcc-mean()-X	
-#### tBodyAcc-mean()-Y	
-#### tBodyAcc-mean()-Z	
+### Activity	
+#### Measured Activity
+
+### Subject	
+#### ID of participating subjects
+
+### tBodyAcc-mean()-X	
+#### foo
+
+### tBodyAcc-mean()-Y	
+#### bar
+
+### tBodyAcc-mean()-Z
+#### foobar
+#	
 tBodyAcc-std()-X	
 tBodyAcc-std()-Y	
 tBodyAcc-std()-Z	
