@@ -11,7 +11,7 @@ Course Project, Johns Hopkins Data Science, Getting and Cleaning Data
 * A Readme, included in this Github repository
 
 ##### Data Source
-see http for detail…
+Data is collected from the accelerometers from the Samsung Galaxy S smartphone.  A full description is available [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
 
