@@ -17,6 +17,7 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 
 
 ##### Cleaning Raw Data
+A R script, with the name run_analysis.R, was created to perform the following task:
 ###### 1. Merges the training and the test sets to create one data set.
 * a. Horizontally merge X_train.txt, subject_train.txt, and y_train.txt
 * b. Horizontally merge X_test.txt, subject_Test.txt, and y_test.txt
@@ -32,7 +33,7 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 * Use merge() to merge activities labels with the data frame from step 2.
 
 ###### 4. Appropriately labels the columns with descriptive names.
-* Get a vector of descriptive column labels from mean_std_index (vector of indices), features (table of features for means and stds).
+* Get a vector of descriptive column labels from the vector of indices of mean or std feature.
 * Subset the features of means and stds fream the features table.
 * Extract only the descriptive name.
 * Set The first column of our final table to "Activity".
@@ -47,7 +48,7 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 
 
 ##### Discussion of the result
-
+Two data sets were generated as a result of the script.
 
 
 
