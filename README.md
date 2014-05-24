@@ -18,8 +18,8 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 
 ##### Cleaning Raw Data
 ###### 1. Merges the training and the test sets to create one data set.
-* a. Horizontally merge X_train, subject_train, and y_train
-* b. Horizontally merge X_test, subject_Test, and y_test
+* a. Horizontally merge X_train.txt, subject_train.txt, and y_train.txt
+* b. Horizontally merge X_test.txt, subject_Test.txt, and y_test.txt
 * c. Vertically merge dataframe from a and b
 
 ###### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -29,7 +29,7 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 ###### 3. Uses descriptive activity names to name the activities in the data.
 * Load activity labels
 * Append activity label in front of our mean/std data set.
-* Use merge() to merge activities with data_activity_label.
+* Use merge() to merge activities labels with the data frame from step 2.
 
 ###### 4. Appropriately labels the columns with descriptive names.
 * Get a vector of descriptive column labels from mean_std_index (vector of indices), features (table of features for means and stds).
