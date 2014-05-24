@@ -23,13 +23,28 @@ The data for the project is available [here.](https://d396qusza40orc.cloudfront.
 * c. Vertically merge dataframe from a and b
 
 ###### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-* From features.txt, find index of mean() and std().  grep() was used to identify indices of feature names that contain **mean** or **std**.
+* grep() was used to identify indices of feature names that contain **mean** or **std**.
+* With data frame from step 1, only columns of the above indices are extracted.
 
 ###### 3. Uses descriptive activity names to name the activities in the data.
+* Load activity labels
+* Append activity label in front of our mean/std data set.
+* Use merge() to merge activities with data_activity_label.
 
 ###### 4. Appropriately labels the columns with descriptive names.
+* Get a vector of descriptive column labels from mean_std_index (vector of indices), features (table of features for means and stds).
+* Subset the features of means and stds fream the features table.
+* Extract only the descriptive name.
+* Set The first column of our final table to "Activity".
+* Finally, rename the columns of our table.
 
 ###### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Using aggregate to group the data.
+* Clean the result by dropping unwanted columns.
+* Renaming the grouping columns.
+
+
+
 
 ##### Discussion of the result
 
